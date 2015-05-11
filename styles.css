@@ -32,19 +32,19 @@ a:focus {
 }
 
 /* couleur et style pour amélie */
-a[href*=amelie]{
+a[href*=amelie] {
  border-bottom-color: #FF1F7F;
  border-bottom-style: dotted;
 }
 
 /* couleur et style pour charles */
-a[href*=charles]{
+a[href*=charles] {
  border-bottom-color: #FDEE56;
  border-bottom-style: dashed;
 }
 
 /* couleur et style pour nicolas */
-a[href*=probablement]{
+a[href*=probablement] {
  border-bottom-color: #33B0AF;
  border-bottom-style: double;
 }
