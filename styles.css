@@ -39,8 +39,8 @@ a[href*=amelie] {
 
 /* couleur et style pour charles */
 a[href*=charles] {
- border-bottom-color: #FDEE56;
- border-bottom-style: dashed;
+ border-bottom-color: #99f805;
+ border-bottom-style: groove;
 }
 
 /* couleur et style pour nicolas */
