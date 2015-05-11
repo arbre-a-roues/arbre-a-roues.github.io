@@ -1,1 +1,50 @@
 
+@import url('//brick.a.ssl.fastly.net/Montserrat:400,700');
+
+body {
+ margin: 0;
+}
+
+p {
+ width: 100vw;
+ height: 100vh;
+ display: table-cell;
+ vertical-align: middle;
+ text-align: center;
+ font-family: Montserrat, sans-serif;
+ font-weight: 400;
+ font-size: 3em;
+ color: black;
+}
+
+a {
+ font-weight: 700;
+ color: currentColor;
+ text-decoration: none;
+ border-bottom-width: 0;
+ border-bottom-color: currentColor;
+ border-bottom-style: solid;
+}
+
+a:hover,
+a:focus {
+ border-bottom-width: .1em;
+}
+
+/* couleur et style pour amélie */
+a[href*=amelie]{
+ border-bottom-color: #FF1F7F;
+ border-bottom-style: dotted;
+}
+
+/* couleur et style pour charles */
+a[href*=charles]{
+ border-bottom-color: #FDEE56;
+ border-bottom-style: dashed;
+}
+
+/* couleur et style pour nicolas */
+a[href*=probablement]{
+ border-bottom-color: #33B0AF;
+ border-bottom-style: double;
+}
